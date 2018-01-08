@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+	<meta charset="utf-8">
+	<meta name="description" content="make Integer range slider by native JS">
+	<meta name="keywords" content="make Integer range slider by native JS">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta content="telephone=no" name="format-detection">
+	<title>gRanger - make Integer range slider by native JS</title>
+	<!--if IE meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')-->
+	<!--if lt IE 9 script(src='http://html5shiv.googlecode.com/svn/trunk/html5.js')-->
+	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+	<link rel="stylesheet" href="/css/gRanger.min.css">
+	<link rel="stylesheet" href="/css/main.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<h1>gRanger</h1>
+		<br/>
+		<label>Минимальное значение:</label>
+		<input type="text" value="10" id="min">
+		<br/>
+		<label>Максимальное значение:</label>
+		<input type="text" value="100" id="max">
+		<br/>
+		<div class="g-ranger" id="range"></div>
+		<br/>
+		<h3>How To Use:</h3>
+		<strong>html:</strong>
+		<br/>
+		<blockquote>
+			&lt;input type=&quot;text&quot; value=&quot;10&quot; id=&quot;min&quot;&gt;<br/>
+			&lt;input type=&quot;text&quot; value=&quot;100&quot; id=&quot;max&quot;&gt;<br/>
+			&lt;div class=&quot;g-ranger&quot; id=&quot;range&quot;&gt;&lt;/div&gt;
+		</blockquote>
+		<strong>css:</strong>
+		<br/>
+		<blockquote>
+			&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/gRanger.min.css&quot;&gt;
+		</blockquote>
+		<strong>js:</strong>
+		<br/>
+		<blockquote>
+			&lt;script type=&quot;text/javascript&quot;src=&quot;/js/gRanger.min.js&quot; defer&gt;&lt;/script&gt;<br/>
+			<br/>
+			&lt;script type=&quot;text/javascript&quot;&gt;<br/>
+			new gRanger('#range', '#min', '#max');<br/>
+			&lt;/script&gt;
+		</blockquote>
+	</div>
+<script type="text/javascript" src="/js/gRanger.min.js" defer></script>
+<script type="text/javascript" src="/js/main.min.js" defer></script>
+</body>
+</html>

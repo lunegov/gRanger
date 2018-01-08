@@ -1,0 +1,41 @@
+html,
+body {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Arimo', sans-serif;
+  color: #606060;
+  background-color: #f0f0f0;
+}
+.wrapper {
+  display: block;
+  max-width: 450px;
+  padding: 16px;
+  margin: 32px auto;
+  background-color: #fff;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+.wrapper label {
+  display: block;
+  padding: 0 0 4px 0;
+}
+.wrapper input {
+  display: block;
+  border: 1px solid #eee;
+  width: 80px;
+  padding: 8px;
+  font-size: 18px;
+  text-align: center;
+}
+.wrapper blockquote {
+  display: block;
+  padding: 16px;
+  margin: 0 0 16px 0;
+  background-color: #f0f0f0;
+  border: 1px solid #eee;
+  line-height: 1.8em;
+}
